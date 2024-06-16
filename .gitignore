@@ -1,0 +1,13 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore system-specific files
+.DS_Store
+
+# Ignore downloaded images and archives
+data/downloaded_images/images/
+data/downloaded_images/images.zip
+data/downloaded_images/images.zip*
+
+# Ignore temporary files
+*.part

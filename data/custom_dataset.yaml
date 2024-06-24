@@ -1,0 +1,11 @@
+names:
+- car
+- truck
+- pedestrian
+- bicyclist
+- light
+- unknown
+nc: 6
+path: /Users/obosieakioyamen/USD/AAI510/final_project/objectdetection/data
+train: downloaded_images/images
+val: downloaded_images/images

@@ -24,7 +24,7 @@ For each image in the training dataset, the bounding box coordinates of the obje
 
 The validation dataset provides a separate set of images that can be used to evaluate the performance of the machine learning model. The goal is to develop a model that can accurately detect and classify objects in new, unseen images, which is essential for the safe and reliable operation of autonomous vehicles on the road. The bounding box coordinates provided in the dataset enable the creation of comprehensive object detection algorithms that can detect and avoid potential hazards on the road.
 
-## EDA on the Labels dataset
+## Eexplanatory Data Analysis
 
  ```python
     # Define the path to the labels file  
@@ -81,7 +81,7 @@ The validation dataset provides a separate set of images that can be used to eva
    plt.axis('off')
    plt.show()
   ```
-## Data Preparation
+## Data Processing, Preprocessing & Feature Engineering
    ```python
     # function to resize the image
    def resize_image(image, max_size=244):
@@ -128,3 +128,5 @@ The validation dataset provides a separate set of images that can be used to eva
        plt.imshow(image[0])
        plt.axis('off')
   ```
+
+## 
